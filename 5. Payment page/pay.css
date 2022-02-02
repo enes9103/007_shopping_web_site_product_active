@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    ;
+    color: #4E4848;
+}
+
+header {
+    border-bottom: 1px rgb(211, 207, 207) solid;
+    width: 100%;
+    height: 6rem;
+    float: right;
+}
+.announcement-left {
+    padding: 0.5em 1em;
+    background-color: #DB4E56;
+    border-radius: 15px;
+}
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.3em 0 0.3em 10%;
+    cursor: pointer;
+}
+.header-logo-right {
+    padding: 0 0.65em;
+}
+.header-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.3em 10% 0.3em 0;
+    cursor: pointer;
+}
+.header-navbar-item {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 0 0.5em;
+    text-decoration: none;
+    color: #FF6000;
+}
+
+.header-navbar-item:hover {
+    background-color: black;
+
+}
+
+.header-navbar-hamburger {
+    display: none;
+}
+
+#logo {
+    width: 230px;
+    margin-left: -20px;
+    margin-top: 1rem;
+
+}
+
+.header-item1 {
+    display: inline;
+}
+
+.header-item2 {
+    float: right;
+    margin-right: 45rem;
+    margin-top: 2.3rem;
+}
+
+.header-item2 li {
+    list-style-type: none;
+    font-size: 15px;
+    float: left;
+    background-color: #6C84FA;
+    padding: 0.4rem;
+    margin-left: 1rem;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+.header-item2 li:hover{
+    padding: 0.6rem;
+}
+
+
+
+.header-item2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-item3 {
+    float: right;
+    margin-right: -900px;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #EEEEEE;
+
+}
+
+.header-item3 p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+section{
+    float: left;
+    width: 70%;
+}
+aside{
+    float: right;
+    padding-top: 3rem;
+}
+
+.addres {
+    padding-top: 3rem;
+}
+
+.addres-stick {
+    background-color: #EEEEEE;
+    height: 2.6rem;
+    width: 18rem;
+    border-radius: 10px;
+    margin: 1.5rem 0rem;
+
+}
+
+.addres-stick li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    float: left;
+    background-color: white;
+    padding: 0.4rem;
+    margin: 0.3rem 0.3rem;
+    border-radius: 10px;
+    width: 7.5rem;
+    height: 1.2rem;
+    text-align: center;
+}
+
+.addres-stick li a {
+    text-decoration: none;
+}
+
+.card {
+    border: 5px #6C84FA solid;
+    border-radius: 10px;
+    width: 12rem;
+    padding: 0rem 2rem 1rem 1rem;
+    margin-top: 1rem;
+}
+.card-aside{
+    border: 1px rgb(222, 222, 222) solid;
+}
+
+.card-link {
+    float: right;
+    padding-top: 0.5rem;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+.card-title {
+    padding-bottom: 0.5rem;
+
+}
+.card-title2 {
+    text-align: center;
+}
+.card-aside-title{
+    text-align: center;
+}
+
+.card-texts {
+    padding-top: 2rem;
+}
+
+.new-adres {
+    padding-left: 4px;
+    text-decoration: none;
+    color: #FF6000;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.bi-plus-circle {
+    padding-right: 10px;
+}
+
+.label {
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.card-number {
+    width: 25rem;
+    height: 3rem;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.card-username {
+    width: 25rem;
+    height: 3rem;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.end-date {
+    width: 10rem;
+    height: 3rem;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.security {
+    width: 10rem;
+    height: 3rem;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.end-date-security div {
+    float: left;
+    margin-right: 1rem;
+}
+.fatura-sözleşme-text{
+    text-align: justify;
+}
+span{
+    color: red;
+}
+.ön-bilgilendirme{
+    font-size: 12px;
+    display:grid;
+    padding-left: 10px;
+}
+.checkbox{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+button{
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    background-color: #CCCCCC;
+    font-size: 16px;
+    font-weight: bolder;
+    color: grey;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+}
+.card-text{
+    font-size: 12px;
+    padding-left: 30px;
+}
+.cargo1{
+    float: left;
+}
+.cargo1 h5{
+    float: left;
+}
+.cargo1 p{
+    float: right;
+    padding-left: 20px;
+}
+.cargo2{
+    float: left;
+}
+.cargo2 h5{
+    float: left;
+}
+.cargo2 p{
+    float: right;
+    padding-left: 50px;
+}
+.span-free{
+    color: #439e4a;
+    font-size: 12px;
+    font-weight: bolder;
+}
