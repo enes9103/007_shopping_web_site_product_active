@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    ;
     color: #4E4848;
 }
 
@@ -92,8 +91,6 @@ header {
 .header-item2 li:hover{
     padding: 0.6rem;
 }
-
-
 
 .header-item2 li a {
     text-decoration: none;
@@ -204,7 +201,6 @@ aside{
     color: #FF6000;
     font-size: 13px;
     font-weight: 700;
-
 }
 
 .bi-plus-circle {
