@@ -5,6 +5,7 @@ Product adding and payment system active shopping website.
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+  ```sh
  install npm@latest -g
   ```
 ### Installation
@@ -14,6 +15,7 @@ This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
+   ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
 3. Install NPM packages
